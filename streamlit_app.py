@@ -1,4 +1,5 @@
 import streamlit
+streamlit.header ('A header with _italics_ :blue[colors] and emojis :sunglasses:')
 streamlit.title('My Mom\"'"s New Healthy Diner')
 streamlit.header('Breakfast Favourites')
 streamlit.text('🥣 Omega 3  & Blueberry Oatmeal')
