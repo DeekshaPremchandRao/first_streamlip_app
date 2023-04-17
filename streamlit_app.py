@@ -1,5 +1,6 @@
 import streamlit
 import pandas
+import snowflake.connector
 streamlit.header ('A header with _italics_ :blue[colors] and emojis :sunglasses:')
 streamlit.title('My Moms New Healthy Diner')
 streamlit.header('Breakfast Favourites')
