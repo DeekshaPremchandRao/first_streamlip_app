@@ -30,7 +30,7 @@ def get_fruityvice_data(this_fruit_choice):
 
 
 # New section to display fruityvice API response
-streamlit.header("View Our Fruit List - Add your Favorites")
+streamlit.header("View Our Fruit List - Add your Favorites!")
 try:
     fruit_choice=streamlit.text_input('What fruit do you like information about?','Kiwi')
     if not fruit_choice:
